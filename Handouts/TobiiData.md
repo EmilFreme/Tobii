@@ -8,7 +8,7 @@ date: Janeiro 2019
 Para fazer o download da SDK para Unity que a Tobii fornece, primeiro vá a area
 de desenvolvedor no site da empresa e crie um usuário. Feito isso procure a
 sessão de downloads e procure pela UnitySDK. Você será redirecionado à uma
-pagina de downloads do GitHub, selecione o **.unitypackage** 
+pagina de downloads do GitHub, selecione o **.unitypackage**
 
 ![Dev Zone Tobii](TobiiDataImgs/devZone.png)
 
@@ -52,11 +52,11 @@ ser usado!
 # Primeiro projeto com Eye Tracking
 
 Agora que já podemos usar a SDK, vamos fazer o primeiro projeto que irá
-consumir os dados que nos fornece. 
+consumir os dados que nos fornece.
 
 Para isso incie um novo projeto, e na cena acrescente um Canvas, para podermos
 montar a UI que utilizaremos, assim que adicionar o canvas um Event será
-adicionado também, mantenha-o no projeto. 
+adicionado também, mantenha-o no projeto.
 
 Adicione agora um Panel ao canvas, e ao panel, alguns elementos Text, a cena
 deverá ficar como abaixo:
@@ -135,12 +135,10 @@ public class TobiiDataOnGUI : MonoBehaviour
 ...
 ```
 
-O `GazePoint` que acabamos de capturar, como já dito, tem várias informações,
-vamos ver onde, da tela, que nosso usuário está olhando e atualizar nossa UI
-com essa informação.
+Agora que capturamos o `GazePoint` vamos utilizar a posição de tela para atualizar-mos nossa **UI**
 
 
-```csharp 
+```csharp
 ...
 GazePoint gazePoint = TobiiAPI.GetGazePoint();
 Vector2 screenPoint = gazePoint.Screen;
