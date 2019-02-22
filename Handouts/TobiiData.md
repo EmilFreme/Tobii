@@ -12,7 +12,7 @@ pagina de downloads do GitHub, selecione o **.unitypackage**
 
 ![Dev Zone Tobii](TobiiDataImgs/devZone.png)
 
-![Download UnitySDK](TobiiDataImgs/downloadUnitySDk.png)
+![Download UnitySDK](TobiiDataImgs/downloadUnitySDK.png)
 
 ![Página downloads GitHub](TobiiDataImgs/downloadsGithub.png)
 
@@ -29,7 +29,7 @@ Package...**.
 Procure o pacote que você acabou de baixar e o selecione, ao clicar em abrir,
 ele começará a ser expandido, aguarde.
 
-![Expandido o pacote](TobiiDataImgs/ExpandePacote.png)
+![Expandido o pacote](TobiiDataImgs/expandePacote.png)
 
 \pagebreak
 
